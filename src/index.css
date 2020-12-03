@@ -1,10 +1,16 @@
-.answer-option {
-    /*border-style: dashed;
-    border-width: thin;*/
-    margin: 10px;
+.pairWordSelected {
+    color: white;
+    background-color: black;
 }
 
-.answer-option.selected-answer {
-    /*border-style: solid;*/
-    background-color: lightskyblue;
+.pairAlreadyMatched {
+    background-color: green;
+}
+
+.pairMatchCorrect {
+    border-color: green;
+}
+
+.pairMatchIncorrect {
+    border-color: red;
 }
